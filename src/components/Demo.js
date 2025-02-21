@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./ui/button";
+import { Link } from 'react-router-dom';
 
 const Demo = () => {
   return (
@@ -17,9 +18,11 @@ const Demo = () => {
               Book Your Free Demo Class Today!
             </h4>
             <p className="text-xs md:text-base font-semibold mt-2">The Early Bird catches the Worm.</p>
-            <Button className="mt-4 bg-red-700 text-white text-xs md:text-base px-4 py-2">
-              Enroll Now!
-            </Button>
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeiG7jPlWJ6VFLs201gA8X4B2xl-iusitRhvh7EqVnnVruR3A/viewform?usp=sharing">
+              <Button className="mt-4 bg-red-700 text-white text-xs md:text-base px-4 py-2">
+                Enroll Now!
+              </Button>
+            </Link>
           </div>
 
           {/* Right Section - Image */}

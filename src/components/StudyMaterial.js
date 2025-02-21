@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./ui/button";
+import { Link } from 'react-router-dom';
 
 const courses = [
   { name: "Sample Papers", image: "/images/samples.png" },
@@ -34,9 +35,11 @@ const StudyMaterial = () => {
 
       {/* Centered Access Now Button */}
       <div className="flex justify-center mt-6">
-        <Button className="bg-red-700 text-white text-sm md:text-base px-6 py-3 md:px-8 md:py-4 rounded-lg">
-          Access Now for Free!
-        </Button>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfhWGEGMK3Jluw5JU7zHwqqq47UhLgbNhMVR81iHUaeID9dQw/viewform?usp=sharing">
+          <Button className="bg-red-700 text-white text-sm md:text-base px-6 py-3 md:px-8 md:py-4 rounded-lg">
+            Access Now for Free!
+          </Button>
+        </Link>
       </div>
     </section>
   );
