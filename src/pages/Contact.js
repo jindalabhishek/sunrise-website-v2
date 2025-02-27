@@ -17,7 +17,17 @@ const Contact = () => {
                     <li><FontAwesomeIcon icon={faClock} className="mr-2" /><span className="text-red-700">Monday - Saturday:</span><span className="text-blue-500"> 2:00 PM - 7:30 PM</span></li>
                     <li><FontAwesomeIcon icon={faClock} className="mr-2" /><span className="text-red-700">Sunday: </span><span className="text-blue-500">Closed</span></li>
                 </ul>
-            </div>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.9406694823083!2d76.1549221!3d30.381042600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910390887dd524f%3A0xe9ce3f487e70f623!2sSunrise%20Institute!5e0!3m2!1sen!2sus!4v1740137588045!5m2!1sen!2sus"
+                      width="100%"
+                      height="40%"
+                      frameBorder="0"
+                      marginHeight="0"
+                      marginWidth="0"
+                      title="Contact Us Form"
+                  >
+                  </iframe>
+              </div>
             <div className="flex-1">
                 <h2 className="text-xl font-bold mb-4 text-red-700">Contact Form</h2>
                 <iframe
